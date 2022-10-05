@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Tasks.css";
+import TaskItem from "./TaskItem";
 
 function Tasks() {
 	// Fetching data from the API
@@ -19,7 +20,7 @@ function Tasks() {
 	return (
 		<div>
 			{fetchedTasks.map((task) => (
-				<taskCard
+				<TaskItem
 					key={task.id}
 					title={task.title}
 					studentName={task.studentName}

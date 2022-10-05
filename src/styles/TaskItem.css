@@ -1,0 +1,9 @@
+.tasktitle_name {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.taskitem {
+	border-radius: 20px;
+	border: 2px solid blueviolet;
+}
