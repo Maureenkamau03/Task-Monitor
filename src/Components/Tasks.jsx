@@ -16,7 +16,21 @@ function Tasks() {
 			});
 	};
 	console.log(fetchedTasks);
-	return <div></div>;
+	return (
+		<div>
+			{fetchedTasks.map((task) => (
+				<taskCard
+					key={task.id}
+					title={task.title}
+					studentName={task.studentName}
+					description={task.descirption}
+					solotion={task.solution}
+					comments={task.comments}
+					completed={task.completed}
+				/>
+			))}
+		</div>
+	);
 }
 
 export default Tasks;
