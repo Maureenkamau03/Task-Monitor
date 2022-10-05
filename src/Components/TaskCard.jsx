@@ -1,7 +1,7 @@
 import React from "react";
 
-function TaskCard() {
-	return <div></div>;
+function TaskCard({ fetchedTasks }) {
+	return <div>{fetchedTasks.map}</div>;
 }
 
 export default TaskCard;

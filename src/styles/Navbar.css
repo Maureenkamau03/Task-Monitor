@@ -1,0 +1,13 @@
+.nav {
+	display: flex;
+	justify-content: space-between;
+	/* color: white; */
+	background-color: white;
+	margin-left: 60px;
+	margin-right: 200px;
+	align-items: center;
+	font-size: 20px;
+}
+.nav .logo {
+	color: blueviolet;
+}
