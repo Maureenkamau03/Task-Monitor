@@ -24,7 +24,7 @@ function Tasks() {
 					key={task.id}
 					title={task.title}
 					studentName={task.studentName}
-					description={task.descirption}
+					description={task.description}
 					solotion={task.solution}
 					comments={task.comments}
 					completed={task.completed}

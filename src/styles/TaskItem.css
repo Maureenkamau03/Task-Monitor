@@ -2,7 +2,7 @@
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	color: rgb(189, 171, 171);
+	color: rgb(14, 13, 13);
 }
 .taskitem {
 	border-radius: 20px;
@@ -10,4 +10,10 @@
 	background-color: rgb(73, 70, 70);
 	margin-left: 15%;
 	margin-right: 15%;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+.desc {
+	color: rgb(189, 171, 171);
+	font-size: 15px;
 }
