@@ -16,9 +16,9 @@ function TaskItem({
 			<div
 				className="taskitem"
 				key={id}
-				onClick={() => {
-					// selectTask(task);
-				}}
+				// onClick={() => {
+				// 	// selectTask(task);
+				// }}
 			>
 				<div className="tasktitle_name">
 					<h2>Task Title: {title}</h2>
