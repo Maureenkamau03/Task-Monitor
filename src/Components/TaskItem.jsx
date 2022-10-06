@@ -1,8 +1,14 @@
 import React from "react";
 import "../styles/TaskItem.css";
-import SolutionForm from "./SolutionForm";
 
-function TaskItem({ title, description, studentName, props }) {
+function TaskItem({
+	title,
+	description,
+	studentName,
+	solution,
+	comments,
+	completed,
+}) {
 	return (
 		<div className="taskitem">
 			<div className="tasktitle_name">
@@ -10,7 +16,22 @@ function TaskItem({ title, description, studentName, props }) {
 				{/* <h2>Student Name: {studentName}</h2> */}
 			</div>
 			<div className="desc">Description: {description}</div>
-			<SolutionForm props={props} />
+			<form action="">
+				<label htmlFor="solution">Solution</label>
+				<input
+					type="text"
+					name=""
+					id=""
+					placeholder="Add a description of how you solved the probem"
+				/>
+				<label htmlFor="">Comment</label>
+				<input
+					type="text"
+					name=""
+					id=""
+					placeholder="If task not done or challenges encountered leave a comment here"
+				/>
+			</form>
 		</div>
 	);
 }
