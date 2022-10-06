@@ -37,6 +37,10 @@ function ShowTask({
 	};
 	return (
 		<div>
+			<div className="tasktitle_name">
+				<h2>Task Title: {title}</h2>
+			</div>
+			<div className="desc">Description: {description}</div>
 			{!complete ? (
 				<form action="" onSubmit={submitHandler}>
 					<label htmlFor="solution">Solution </label>

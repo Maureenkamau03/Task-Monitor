@@ -31,13 +31,13 @@ function App() {
 							path={`/tasks/${task.id}`}
 							element={
 								<ShowTask
-									task={task}
+									id={task.id}
 									title={task.title}
 									description={task.description}
 									studentName={task.studentName}
 									solution={task.solution}
 									comments={task.comments}
-									com
+									completed={task.completed}
 								/>
 							}
 						/>

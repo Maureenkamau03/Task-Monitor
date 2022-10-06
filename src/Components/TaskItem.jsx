@@ -24,6 +24,7 @@ function TaskItem({
 					<h2>Task Title: {title}</h2>
 				</div>
 				<div className="desc">Description: {description}</div>
+				{completed ? <p>Done</p> : <p>Not completed</p>}
 			</div>
 		</Link>
 	);

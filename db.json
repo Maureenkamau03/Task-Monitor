@@ -23,9 +23,9 @@
       "studentName": "Maureen",
       "title": "Routing on Expense tracker project",
       "description": "On this project, components were creating but routing was not done. Create routes forthe different components. Be careful on nested routes",
-      "solution": "",
-      "comments": "",
-      "completed": false
+      "solution": "Testing",
+      "comments": "Done",
+      "completed": true
     },
     {
       "id": 4,

@@ -1,8 +1,6 @@
 import React from "react";
 import "../styles/Tasks.css";
 import TaskItem from "./TaskItem";
-import ShowTask from "./ShowTask";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function Tasks({ fetchedTasks }) {
 	// Fetching data from the API
