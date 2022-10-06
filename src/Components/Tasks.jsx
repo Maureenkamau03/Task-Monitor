@@ -18,7 +18,7 @@ function Tasks() {
 	};
 	console.log(fetchedTasks);
 	return (
-		<div>
+		<div className="tasks">
 			{fetchedTasks.map((task) => (
 				<TaskItem
 					key={task.id}

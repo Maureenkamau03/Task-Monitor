@@ -10,7 +10,7 @@ function Home() {
 			<div className="hero">
 				{" "}
 				<p>
-					Task monitor helps you to monitor your juniors' tasks more efficienty
+					Task monitor helps you to monitor your juniors' tasks more efficiently
 				</p>
 				<img
 					src="https://i.postimg.cc/fTgVt2xn/56438-man-with-task-list.gif"

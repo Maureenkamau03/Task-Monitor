@@ -1,10 +1,37 @@
 {
 	"tasks": [
 		{
-			"id": "1",
+			"id": 1,
 			"studentName": "Maureen",
 			"title": "Landing page for Agriplus",
 			"description": "This task invloves creating a landing page for Agriplus project. Follow rthe mockup shared earlier.",
+			"solution": "",
+			"comments": "",
+			"completed": null
+		},
+		{
+			"id": 2,
+			"studentName": "Maureen",
+			"title": "Troubleshooting DOM manipulation error on Task monitor project",
+			"description": "This task involves find a solution to the error of undefined object in the Taskmonitor project. Ensure that the DOM renders as expected",
+			"solution": "",
+			"comments": "",
+			"completed": null
+		},
+		{
+			"id": 3,
+			"studentName": "Maureen",
+			"title": "Routing on Expense tracker project",
+			"description": "On this project, components were creating but routing was not done. Create routes forthe different components. Be careful on nested routes",
+			"solution": "",
+			"comments": "",
+			"completed": null
+		},
+		{
+			"id": 4,
+			"studentName": "Maureen",
+			"title": "Css update for Expense Tacker Project",
+			"description": "ExpenseItem css file needs to be updated with new styling. Take note of the theme color of the project",
 			"solution": "",
 			"comments": "",
 			"completed": null

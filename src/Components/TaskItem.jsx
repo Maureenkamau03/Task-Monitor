@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/TaskItem.css";
 
 function TaskItem({
 	title,
