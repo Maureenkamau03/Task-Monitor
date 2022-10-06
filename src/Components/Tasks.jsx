@@ -26,6 +26,7 @@ function Tasks() {
 			{fetchedTasks.map((task) => (
 				<TaskItem
 					key={task.id}
+					id={task.id}
 					title={task.title}
 					studentName={task.studentName}
 					description={task.description}

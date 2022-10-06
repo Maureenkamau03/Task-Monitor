@@ -20,9 +20,22 @@ function TaskItem({
 	};
 	const submitHandler = (e) => {
 		e.preventDefault();
-		const solutionData = {
-			// setFormData({ solution:"", comments: "", completed: "" });
-		};
+		//patch
+		fetch("http://localhost:8000/tasks/" + id, {
+			method: "PATCH",
+			headers: {
+				"Content-Type": "application/json",
+			},
+			body: JSON.stringify(formData),
+		})
+			.then((response) => response.json())
+			.then((data) => {
+				console.log("Success:", data);
+			});
+
+		// const solutionData = {
+		// 	// setFormData({ solution:"", comments: "", completed: "" });
+		// };
 	};
 
 	return (
