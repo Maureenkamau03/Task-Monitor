@@ -14,8 +14,8 @@
       "studentName": "Maureen",
       "title": "Troubleshooting DOM manipulation error on Task monitor project",
       "description": "This task involves find a solution to the error of undefined object in the Taskmonitor project. Ensure that the DOM renders as expected",
-      "solution": "",
-      "comments": "",
+      "solution": "The solution is.....",
+      "comments": "It was a bit challenging ",
       "completed": false
     },
     {
