@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/TaskItem.css";
 
 function TaskItem({
@@ -38,18 +39,19 @@ function TaskItem({
 	};
 
 	return (
-		<div
-			className="taskitem"
-			key={id}
-			onClick={() => {
-				// selectTask(task);
-			}}
-		>
-			<div className="tasktitle_name">
-				<h2>Task Title: {title}</h2>
-			</div>
-			<div className="desc">Description: {description}</div>
-			{!complete ? (
+		<Link to={"/tasks/" + id} style={{ textDecoration: "none" }}>
+			<div
+				className="taskitem"
+				key={id}
+				onClick={() => {
+					// selectTask(task);
+				}}
+			>
+				<div className="tasktitle_name">
+					<h2>Task Title: {title}</h2>
+				</div>
+				<div className="desc">Description: {description}</div>
+				{/* {!complete ? (
 				<form action="" onSubmit={submitHandler}>
 					<label htmlFor="solution">Solution </label>
 					<input
@@ -74,8 +76,9 @@ function TaskItem({
 				<div>
 					<p>Done</p>
 				</div>
-			)}
-		</div>
+			)} */}
+			</div>
+		</Link>
 	);
 }
 

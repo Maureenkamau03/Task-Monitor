@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Tasks.css";
 import TaskItem from "./TaskItem";
+import { Routes, Route } from "react-router-dom";
 
 function Tasks() {
 	// Fetching data from the API
@@ -23,15 +24,30 @@ function Tasks() {
 	// };
 	return (
 		<div className="tasks">
+			<Routes>
+				{fetchedTasks.map((task) => (
+					<Route
+						path={`/tasks/${task.id}`}
+						element={<TaskItem task={task}
+						title={task.title}
+						description={task.description}
+						studentName={task.studentName}
+						solution={task.solution}
+						comments={task.comments}
+						com
+						/>}
+					/>
+				))}
+			</Routes>
 			{fetchedTasks.map((task) => (
 				<TaskItem
 					key={task.id}
 					id={task.id}
 					title={task.title}
-					studentName={task.studentName}
+					// studentName={task.studentName}
 					description={task.description}
-					solotion={task.solution}
-					comments={task.comments}
+					// solotion={task.solution}
+					// comments={task.comments}
 					completed={task.completed}
 				/>
 			))}
