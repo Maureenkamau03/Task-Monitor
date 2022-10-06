@@ -7,7 +7,7 @@
 			"description": "This task invloves creating a landing page for Agriplus project. Follow rthe mockup shared earlier.",
 			"solution": "www",
 			"comments": "",
-			"completed": null
+			"completed": false
 		},
 		{
 			"id": 2,
@@ -16,7 +16,7 @@
 			"description": "This task involves find a solution to the error of undefined object in the Taskmonitor project. Ensure that the DOM renders as expected",
 			"solution": "wewe",
 			"comments": "",
-			"completed": null
+			"completed": false
 		},
 		{
 			"id": 3,
@@ -25,7 +25,7 @@
 			"description": "On this project, components were creating but routing was not done. Create routes forthe different components. Be careful on nested routes",
 			"solution": "",
 			"comments": "yoh",
-			"completed": null
+			"completed": false
 		},
 		{
 			"id": 4,
@@ -34,7 +34,7 @@
 			"description": "ExpenseItem css file needs to be updated with new styling. Take note of the theme color of the project",
 			"solution": "hey",
 			"comments": "",
-			"completed": null
+			"completed": false
 		}
 	]
 }

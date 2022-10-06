@@ -5,6 +5,7 @@ import TaskItem from "./TaskItem";
 function Tasks() {
 	// Fetching data from the API
 	const [fetchedTasks, setFetchedTasks] = React.useState([]);
+	// const [taskSelected, settaskSelected] = React.useState(null);
 
 	React.useEffect(() => {
 		getTasks();
@@ -17,6 +18,9 @@ function Tasks() {
 			});
 	};
 	console.log(fetchedTasks);
+	// const selectTask = (task) => {
+	// 	const showTask = fetchedTasks.filter;
+	// };
 	return (
 		<div className="tasks">
 			{fetchedTasks.map((task) => (

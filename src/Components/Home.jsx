@@ -9,9 +9,16 @@ function Home() {
 			<Navbar />
 			<div className="hero">
 				{" "}
-				<p>
-					Task monitor helps you to monitor your juniors' tasks more efficiently
-				</p>
+				<div className="herotext">
+					<p>
+						Has it been tedious to physically track your juniours' tasks
+						manually?
+					</p>
+					<p>
+						Don't sweat it! Task monitor helps you to monitor your juniors'
+						tasks more efficiently.
+					</p>
+				</div>
 				<img
 					src="https://i.postimg.cc/fTgVt2xn/56438-man-with-task-list.gif"
 					alt=""
