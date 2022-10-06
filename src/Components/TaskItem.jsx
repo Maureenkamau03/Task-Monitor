@@ -35,10 +35,6 @@ function TaskItem({
 				console.log("Success:", data);
 				setComplete(true);
 			});
-
-		// const solutionData = {
-		// 	// setFormData({ solution:"", comments: "", completed: "" });
-		// };
 	};
 
 	return (
@@ -51,7 +47,6 @@ function TaskItem({
 		>
 			<div className="tasktitle_name">
 				<h2>Task Title: {title}</h2>
-				{/* <h2>Student Name: {studentName}</h2> */}
 			</div>
 			<div className="desc">Description: {description}</div>
 			{!complete ? (

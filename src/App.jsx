@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
@@ -8,15 +8,12 @@ import Tasks from "./Components/Tasks";
 function App() {
 	return (
 		<div className="App">
-			{/* <Router>
-				<Navbar />
+			<BrowserRouter>
 				<Routes>
-					<Route path="/Tasks" element={}></Route>
-					<Route exact path="/" element={} />
+					<Route path="/" element={<Home />} />
+					<Route path="/tasks" element={<Tasks />} />
 				</Routes>
-			</Router> */}
-			<Home />
-			<Tasks />
+			</BrowserRouter>
 		</div>
 	);
 }
