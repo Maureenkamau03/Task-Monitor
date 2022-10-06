@@ -1,12 +1,9 @@
 import React from "react";
-import Navbar from "./Navbar";
 import "../styles/Home.css";
 
 function Home() {
 	return (
 		<div>
-			{/* <h1>Hello</h1> */}
-			<Navbar />
 			<div className="hero">
 				{" "}
 				<div className="herotext">
