@@ -11,11 +11,8 @@ function Home() {
 					<h1>Monitoring tasks has never been this easy</h1>
 					<p>
 						Has it been tedious to physically track your juniours' tasks
-						manually?
-					</p>
-					<p>
-						Don't sweat it! Task monitor helps you to monitor your juniors'
-						tasks more efficiently.
+						manually? Don't sweat it! Task monitor helps you to monitor your
+						juniors' tasks more efficiently.
 					</p>
 					<button>Learn More</button>
 					<button id="download">Download APP</button>
