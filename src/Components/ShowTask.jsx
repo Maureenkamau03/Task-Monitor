@@ -46,22 +46,22 @@ function ShowTask({
 			</div>
 			{!complete ? (
 				<form action="" onSubmit={submitHandler}>
-					<label htmlFor="solution">Solution </label>
+					<label htmlFor="solution">Solution: </label>
 					<input
 						type="text"
 						name="solution"
 						value={formData.solution}
 						onChange={inputChangeHandler}
-						placeholder="Add a description of how you solved the probem"
+						placeholder=" how you solved the problem"
 					/>
-					<label htmlFor="">Comment</label>
+					<label htmlFor="">Comment:</label>
 					<input
 						type="text"
 						name="comments"
 						id=""
 						value={formData.comments}
 						onChange={inputChangeHandler}
-						placeholder="If task not done or challenges encountered leave a comment here"
+						placeholder="Challenges? leave a comment here"
 					/>
 					<input type="submit" value="Submit" />
 				</form>
