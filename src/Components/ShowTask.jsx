@@ -22,7 +22,7 @@ function ShowTask({
 		e.preventDefault();
 		//patch
 		const toSubmit = { ...formData, completed: true };
-		fetch("https://nameless-springs-18651.herokuapp.com/tasks" + id, {
+		fetch("https://nameless-springs-18651.herokuapp.com/tasks/" + id, {
 			method: "PATCH",
 			headers: {
 				"Content-Type": "application/json",
