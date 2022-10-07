@@ -34,6 +34,7 @@ function ShowTask({
 				console.log("Success:", data);
 				setComplete(true);
 			});
+		e.target.reset();
 	};
 	return (
 		<div className="taskitem">
