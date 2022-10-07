@@ -15,6 +15,11 @@
 	margin-bottom: 10px;
 	padding-bottom: 30px;
 }
+.taskitem p {
+	font-size: 20px;
+	color: black;
+}
+
 .desc {
 	color: rgb(189, 171, 171);
 	font-size: 20px;
@@ -46,3 +51,12 @@ label {
 input :focus {
 	border: 1px solid blueviolet;
 }
+/* .status {
+	display: flex;
+	align-items: center;
+	margin: 0 25% 0 25%;
+}
+.status span {
+	color: black;
+	font-size: 15px;
+} */

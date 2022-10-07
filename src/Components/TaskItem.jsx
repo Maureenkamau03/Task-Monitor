@@ -23,7 +23,9 @@ function TaskItem({
 				<div className="tasktitle_name">
 					<h2>Task Title: {title}</h2>
 				</div>
-				<div className="desc">Description: {description}</div>
+				<div className="desc">
+					<span>Description:</span> {description}
+				</div>
 				{completed ? <p>Done</p> : <p>Not completed</p>}
 			</div>
 		</Link>
