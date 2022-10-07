@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Home.css";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 
 function Home() {
 	return (
@@ -21,11 +21,11 @@ function Home() {
 					<button id="download">Download APP</button>
 				</div>
 				<img
-					src="https://i.postimg.cc/fTgVt2xn/56438-man-with-task-list.gif"
+					src="https://i.postimg.cc/rwQ1TJ9V/output-onlinegiftools-1.gif"
 					alt=""
 				/>
 			</div>
-			<Footer />
+			{/* <Footer /> */}
 		</div>
 	);
 }
