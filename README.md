@@ -15,7 +15,7 @@
 
 Many institutions offer university students with attachment opportunities. In these institutions, each student is assigned a supervisor who's accountable for the tasks each students works on everyday. They also keep track of whether these tasks were completed or not. Sometimes this can be a tedious process for the supervisor since they're high ranked individuals thus have loads to do. This system helps the supervisors to assign tasks to different students, the students on their end can then add solutions to the particular tasks, add a comment if any and mark the task as completed. The project will show activities on one student's account.
 
-![myimage-alt-tag](./assets/images/Screenshot%20from%202022-09-02%2015-30-07.png)
+[![Watch the video](https://i.postimg.cc/dVWCkjMr/Screenshot-from-2022-10-07-13-52-36.png)](Untitled\_ Oct 7, 2022 11_40 AM.webm)
 
 ## Installation
 
@@ -30,12 +30,12 @@ Many institutions offer university students with attachment opportunities. In th
 - $ git clone https://github.com/Maureenkamau03/Task-Monitor
 - $ cd Task-Monitor
 - $ run npm install
-- $ run npm start server
+- $ json-server --watch db.json
 - $ run npm start
 
 ## Live link
 
-https://maureenkamau03.github.io/MovieApp/
+https://task-monitor.vercel.app
 
 ### Technology used
 
