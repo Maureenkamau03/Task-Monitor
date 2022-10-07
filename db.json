@@ -53,6 +53,15 @@
 			"solution": "",
 			"comments": "",
 			"completed": false
+		},
+		{
+			"id": 7,
+			"studentName": "Maureen",
+			"title": "Independent Project: Javascript",
+			"description": "Build a single page project using html,css and Vanilla javascript. Make sure that you include three event listeners, a GET and Post event. Describe how you achieved that on the solution section",
+			"solution": "",
+			"comments": "",
+			"completed": false
 		}
 	]
 }

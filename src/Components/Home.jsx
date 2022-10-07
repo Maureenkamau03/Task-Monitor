@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Home.css";
-// import Footer from "./Footer";
+import Footer from "./Footer";
 
 function Home() {
 	return (
@@ -25,7 +25,7 @@ function Home() {
 					alt=""
 				/>
 			</div>
-			{/* <Footer /> */}
+			<Footer />
 		</div>
 	);
 }

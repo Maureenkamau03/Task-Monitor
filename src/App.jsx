@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Footer from "./Components/Footer";
+// import Footer from "./Components/Footer";
 import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
 import ShowTask from "./Components/ShowTask";
@@ -50,7 +50,7 @@ function App() {
 					/>
 					<Route path="/tasks/1" element={<h1>404 Not Found</h1>} />
 				</Routes>
-				<Footer />
+				{/* <Footer /> */}
 			</BrowserRouter>
 		</div>
 	);

@@ -3,6 +3,7 @@
 	justify-content: space-around;
 	align-items: center;
 	color: rgb(14, 13, 13);
+	font-size: 24px;
 }
 .taskitem {
 	border-radius: 20px;
@@ -16,8 +17,11 @@
 }
 .desc {
 	color: rgb(189, 171, 171);
-	font-size: 15px;
+	font-size: 20px;
 	margin-bottom: 30px;
+}
+.desc span {
+	color: black;
 }
 input {
 	margin-right: 10px;

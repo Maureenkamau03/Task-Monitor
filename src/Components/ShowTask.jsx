@@ -36,11 +36,14 @@ function ShowTask({
 			});
 	};
 	return (
-		<div>
+		<div className="taskitem">
 			<div className="tasktitle_name">
 				<h2>Task Title: {title}</h2>
 			</div>
-			<div className="desc">Description: {description}</div>
+			<div className="desc">
+				<span>Description: </span>
+				{description}
+			</div>
 			{!complete ? (
 				<form action="" onSubmit={submitHandler}>
 					<label htmlFor="solution">Solution </label>
