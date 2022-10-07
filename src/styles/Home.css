@@ -6,3 +6,13 @@
 	margin-left: 10%;
 	margin-right: 10%;
 }
+button {
+	border: 1px solid blueviolet;
+	border-radius: 20px;
+	padding: 10px;
+	margin-right: 60px;
+}
+#download {
+	background-color: blueviolet;
+	color: white;
+}

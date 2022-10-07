@@ -15,6 +15,8 @@ function Home() {
 						Don't sweat it! Task monitor helps you to monitor your juniors'
 						tasks more efficiently.
 					</p>
+					<button>Learn More</button>
+					<button id="download">Download APP</button>
 				</div>
 				<img
 					src="https://i.postimg.cc/fTgVt2xn/56438-man-with-task-list.gif"
