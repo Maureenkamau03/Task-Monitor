@@ -5,9 +5,9 @@
 			"studentName": "Maureen",
 			"title": "Landing page for Agriplus",
 			"description": "This task invloves creating a landing page for Agriplus project. Follow the mockup shared earlier.",
-			"solution": "",
-			"comments": "",
-			"completed": false
+			"solution": "Testing",
+			"comments": "It was a bit challenging ",
+			"completed": true
 		},
 		{
 			"id": 2,
@@ -59,6 +59,33 @@
 			"studentName": "Maureen",
 			"title": "Independent Project: Javascript",
 			"description": "Build a single page project using html,css and Vanilla javascript. Make sure that you include three event listeners, a GET and Post event. Describe how you achieved that on the solution section",
+			"solution": "",
+			"comments": "",
+			"completed": false
+		},
+		{
+			"id": 8,
+			"studentName": "Maureen",
+			"title": "Creating a simple react Js app",
+			"description": "Build a single page react Js project. Make sure you have 5 different components and three routes",
+			"solution": "",
+			"comments": "",
+			"completed": false
+		},
+		{
+			"id": 9,
+			"studentName": "Maureen",
+			"title": "Setting up work stations in office 13",
+			"description": "Set up two work station for the two new officers",
+			"solution": "",
+			"comments": "",
+			"completed": false
+		},
+		{
+			"id": 10,
+			"studentName": "Maureen",
+			"title": "Troubleshoot network problems in office 5",
+			"description": "Offers in office 5 are complaining that they don't have access to wifi, check what the problem could be",
 			"solution": "",
 			"comments": "",
 			"completed": false
