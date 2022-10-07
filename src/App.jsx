@@ -15,7 +15,7 @@ function App() {
 		getTasks();
 	}, []);
 	const getTasks = () => {
-		fetch("http://localhost:8000/tasks")
+		fetch("https://nameless-springs-18651.herokuapp.com/tasks")
 			.then((res) => res.json())
 			.then((data) => {
 				setFetchedTasks(data);
