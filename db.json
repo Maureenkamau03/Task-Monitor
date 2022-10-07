@@ -35,6 +35,24 @@
 			"solution": "",
 			"comments": "",
 			"completed": false
+		},
+		{
+			"id": 5,
+			"studentName": "Maureen",
+			"title": "Code Kata: Tower builder",
+			"description": "Find the kata on this link: https://www.codewars.com/kata/576757b1df89ecf5bd00073b/train/javascript",
+			"solution": "",
+			"comments": "",
+			"completed": false
+		},
+		{
+			"id": 6,
+			"studentName": "Maureen",
+			"title": "Code Kata: Even or Odd",
+			"description": "Find the kata on this link: https://www.codewars.com/kata/53da3dbb4a5168369a0000fe/train/javascript",
+			"solution": "",
+			"comments": "",
+			"completed": false
 		}
 	]
 }
