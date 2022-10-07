@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Home.css";
+import Footer from "./Footer";
 
 function Home() {
 	return (
@@ -7,6 +8,7 @@ function Home() {
 			<div className="hero">
 				{" "}
 				<div className="herotext">
+					<h1>Monitoring tasks has never been this easy</h1>
 					<p>
 						Has it been tedious to physically track your juniours' tasks
 						manually?
@@ -23,6 +25,7 @@ function Home() {
 					alt=""
 				/>
 			</div>
+			<Footer />
 		</div>
 	);
 }
